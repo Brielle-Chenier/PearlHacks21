@@ -2,8 +2,6 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from spotipy.oauth2 import SpotifyClientCredentials
 
-
-
 def add_songs_to_playlist(country, artists):
     cid= '16b80191a35b48778bb2df4b6f9cee65'
     secret = '19fa57fbd8c3431983c1af5ccc8359e4'
@@ -26,10 +24,11 @@ def add_songs_to_playlist(country, artists):
     track_id = []
     track_names = []
     for artist in artists:
-        for i in range(0,1):
+        for i in range(0,5):
             query = f"artist:{artist}"
-            track_results = sp.search(q=query, type='track', limit=1,offset=i)
-            if (track_results["tracks"]["items"][0]['uri']):
+            track_results = sp.search(q=query, type='track', limit=10,offset=i)
+            print ("len" + str(len(track_results["tracks"]["items"])))
+            if (len(track_results["tracks"]["items"]) > i):
                 track_uri = track_results["tracks"]["items"][0]['uri']
                 track_name = track_results["tracks"]["items"][0]['name']
                 track_names.append(track_name)

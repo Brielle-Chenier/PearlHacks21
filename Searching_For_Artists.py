@@ -11,8 +11,8 @@ def search(country):
             if row [0] == country:
                 #print (row[1])
                 local_artists.append(row[1])
-        
-        #print (local_artists)
+        print ("size:")
+        print (len(local_artists))
         add_songs_to_playlist(country, local_artists)
 
-search ("Finland")
+search ("Australia")
