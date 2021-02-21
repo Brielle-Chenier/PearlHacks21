@@ -57,49 +57,21 @@
     
     <!-- List of countries -->
     <ul id="cityList">
-        <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Canada" style="text-decoration:none;">Canada</a></li>
-        <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Romania" style="text-decoration:none;">Romania</a></li>
-        <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Australia" style="text-decoration:none;">Australia</a></li>
-        <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/South Korea" style="text-decoration:none;">South Korea</a></li>
-        <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Brazil" style="text-decoration:none;">Brazil</a></li>
-        <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/New Zealand" style="text-decoration:none;">New Zealand</a></li>
-        <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Finland" style="text-decoration:none;">Finland</a></li>
-        <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Turkey" style="text-decoration:none;">Turkey</a></li>
-        <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/India" style="text-decoration:none;">India</a></li>
-        <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Germany" style="text-decoration:none;">Germany</a></li>
-  
+        {%for i in list1%}
+        <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href= {{base_url}}{{i}} style="text-decoration:none;">{{i}}</a></li>
+        {%endfor%}
     </br></br>
-      <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Indonesia" style="text-decoration:none;">Indonesia</a></li>
-      <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Costa Rica" style="text-decoration:none;">Costa Rica</a></li>
-      <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Panama" style="text-decoration:none;">Panama</a></li>
-      <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Ecuador" style="text-decoration:none;">Ecuador</a></li>
-      <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Norway" style="text-decoration:none;">Norway</a></li>
-      <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/France" style="text-decoration:none;">France</a></li>
-      <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Japan" style="text-decoration:none;">Japan</a></li>
-      <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Croatia" style="text-decoration:none;">Croatia</a></li>
-      <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Switzerland" style="text-decoration:none;">Switzerland</a></li>
-      <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Columbia" style="text-decoration:none;">Columbia</a></li>
+        {%for i in list2%}
+        <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href= {{base_url}}{{i}} style="text-decoration:none;">{{i}}</a></li>
+        {%endfor%}
     </br></br>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Dominican Republic" style="text-decoration:none;">Dominican Republic</a></li>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Costa Rica" style="text-decoration:none;">Mexico</a></li>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Italy" style="text-decoration:none;">Italy</a></li>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Latvia" style="text-decoration:none;">Latvia</a></li>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/United Kingdom" style="text-decoration:none;">United Kingdom</a></li>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Iceland" style="text-decoration:none;">Iceland</a></li>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Honduras" style="text-decoration:none;">Honduras</a></li>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/El Salvador" style="text-decoration:none;">El Salavdor</a></li>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Chile" style="text-decoration:none;">Chile</a></li>
+        {%for i in list3%}
+        <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href= {{base_url}}{{i}} style="text-decoration:none;">{{i}}</a></li>
+        {%endfor%}
     </br></br>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Nicaragua" style="text-decoration:none;">Nicaragua</a></li>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Argentina" style="text-decoration:none;">Argentina</a></li>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Ecuador" style="text-decoration:none;"></a>Ecuador</li>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Bolivia" style="text-decoration:none;">Bolivia</a></li>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Uruguay" style="text-decoration:none;">Uruguay</a></li>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Andora" style="text-decoration:none;"></a>Andora</li>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Guatemala" style="text-decoration:none;">Guatemala</a></li>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Austria" style="text-decoration:none;">Austria</a></li>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Jordan" style="text-decoration:none;">Jordan</a></li>
-    <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href="http://127.0.0.1:5000/Belgium" style="text-decoration:none;">Belgium</a></li>
+        {%for i in list4%}
+        <li class="w3-button w3-text-white" style="background-color:rgb(98, 124, 208)"><a href= {{base_url}}{{i}} style="text-decoration:none;">{{i}}</a></li>
+        {%endfor%}
     </ul>
 
     <br>

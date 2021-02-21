@@ -38,4 +38,4 @@ def add_songs_to_playlist(country, artists):
         print (track)
     return ("https://open.spotify.com/playlist/" + str (playlist_id))
 
-#print (add_songs_to_playlist("US", ["Taylor Swift", "AJR"]))
+print (add_songs_to_playlist("US", ["Taylor Swift", "AJR"]))
