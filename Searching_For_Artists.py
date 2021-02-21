@@ -1,7 +1,8 @@
 import csv
+from spotipy_app import add_songs_to_playlist
 
 def search(country):
-    with open('C:\\Users\\kayla\\Desktop\\Visual Studios Code\\Pearl Hacks\\artists.csv', 'r') as csv_file:
+    with open('C:\\Users\\briel\\OneDrive\\Documents\\GitHub\\Hackathons\\PearlHacks21\\artists.csv', 'r') as csv_file:
         csv_reader = csv.reader(csv_file)
 
         local_artists = [country]
@@ -12,5 +13,6 @@ def search(country):
                 local_artists.append(row[1])
         
         #print (local_artists)
-        add_songs_to_playlist(local_artists)
+        add_songs_to_playlist(country, local_artists)
 
+search ("Finland")
