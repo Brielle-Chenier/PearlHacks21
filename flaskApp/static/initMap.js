@@ -6,7 +6,7 @@ function initMap() {
   });
   // Create the initial InfoWindow.
   let infoWindow = new google.maps.InfoWindow({
-    content: "Click the map to get Lat/Lng!",
+    content: "Click a country to get a playlist!",
     position: myLatlng,
   });
   infoWindow.open(map);
@@ -33,15 +33,17 @@ function initMap() {
       });
     });
 
-
+    /*
     // Create a new InfoWindow.
     infoWindow = new google.maps.InfoWindow({
       position: mapsMouseEvent.latLng,
     });
     infoWindow.setContent(
-      link
+      'Click on the button above for your playlist.'
+      //link
       //'https://maps.googleapis.com/maps/api/geocode/json?latlng='+ str4.toString() +'&key=AIzaSyCy4rMsW8E0G5S7kJAH6rgXOPOl6MizZsw&language=en&result_type=country'
     );
-    infoWindow.open(map);
+    //infoWindow.open(map);
+    */
   });
 }
