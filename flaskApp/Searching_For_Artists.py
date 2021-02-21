@@ -12,8 +12,6 @@ def search(country):
                 new_row = str(row[0]).split(',')
                 local_artists.append(str(new_row[1]))
 
-        for artist in local_artists:
-            print (artist)
         if (len(local_artists)==0):
             local_artists = [country]
     link = add_songs_to_playlist(country, local_artists)
