@@ -15,4 +15,4 @@ def search(country):
         print (len(local_artists))
         add_songs_to_playlist(country, local_artists)
 
-search ("Australia")
+search ("Romania")
