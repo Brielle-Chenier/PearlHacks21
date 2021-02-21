@@ -8,10 +8,10 @@ app = Flask (__name__)
 country_list = ['Canada', 'Romania', 'Australia','South Korea','Brazil', 'New Zealand', 'Finland', 'Turkey', 'India', 'Germany']
 country_list2 = ['Indonesia','Costa Rica', 'Panama','Ecuador', 'Chile','France','Japan','Croatia','Switzerland','Columbia']
 country_list3 = ['Dominican Republic', 'Mexico','Italy','Latvia','United Kingdom','Iceland','Honduras','El Salvador','Belgium']
-country_list4 = ['Nicaragua', 'Argentina','Norway','Bolivia','Uruaguay','Andora','Guatemala','Austria','Jordan','Paraguay']
+country_list4 = ['Nicaragua', 'Argentina','Norway','Bolivia','Uruaguay','Andorra','Guatemala','Austria','Jordan','Paraguay']
 country_list5 = ['Uzbekistan', 'Bulgaria', 'Estonia', 'Hungary', 'Ireland', 'Cyprus', 'Taiwan', 'Morocco', 'Israel', 'Sweden']
 country_list6 = ['Slovakia', 'Peru', 'Netherlands', 'Poland','Czech Republic','Greece','Tunisia', 'Portugal', 'South Africa']
-country_list7 = ['Russia', 'Philippines','Vietnam', 'Egypt','Thailand']
+country_list7 = ['Russia', 'Philippines','Vietnam', 'Egypt','Thailand', 'United States']
 @app.route("/<country>")
 def home(country):
     link = search(country)
