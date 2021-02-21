@@ -26,7 +26,7 @@ def add_songs_to_playlist(country, artists):
     track_id = []
     track_names = []
     for artist in artists:
-        for i in range(0,2):
+        for i in range(0,1):
             query = f"artist:{artist}"
             track_results = sp.search(q=query, type='track', limit=1,offset=i)
             if (track_results["tracks"]["items"][0]['uri']):
