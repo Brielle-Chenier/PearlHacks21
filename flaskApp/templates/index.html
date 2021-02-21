@@ -1,7 +1,179 @@
-<!doctype html>
-{%extends "base.html" %}
-{%block title%}HELLO{%endblock%}
-{%block content%} 
-<h1>HI!!</h1> 
-{%endblock%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CHANGE THIS TITLE</title> <!-- CHANGE THE WEBSITE TITLE-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <style type="text/css">
+      /* Set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 80%;
+      }
+
+      /* Makes the page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+    <!-- Google Maps get location from click -->
+    <script src="initMap.js"></script>
+
+</head>
+
+<body class="w3-container w3-auto">
+        
+    <h1>{{link}}</h1>
+    <div class="w3-panel w3-padding-large" style="background-color:rgb(239, 71, 111)">hello</div>
+    
+    <!-- The About Us Section -->
+    <div id="about-us" class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+        <h2 class="w3-wide">Travelfy</h2>
+        <p class="w3-opacity"><i>The sounds of where you are (or where you want to be)</i></p>
+        <p class="w3-justify"> Welcome to [cool site name here], where you can listen to music that fits where you are. 
+            Whether you're looking for some chill study music at the library, looking for some theme songs to highlight 
+            your travel adventure, or even just curious about what the most popular music in Uzbekistan could be, you're 
+            in the right place!</p>
+        <p class="w3-justify"> Check out our Where to Start section below for some more famous locations, or take 
+            to the search bar for your own musical journey.</p> 
+    </div>
+
+    <!-- Search bar for countries -->
+    <table class="w3-centered" width="100%">
+        <tr>
+            <td><input class="w3-border w3-button" type="text" id="mySearch" onkeyup="searchList()" placeholder="Find a city..." title="Type in a category"></td>
+        </tr>
+    </table>
+    
+    <!-- List of countries -->
+    <ul id="cityList">
+        <li class="w3-button w3-text-white" style="background-color:rgb(47, 82, 224)"><a href="#" style="text-decoration:none;">HTML</a></li>
+        <li class="w3-button w3-text-white" style="background-color:rgb(47, 82, 224)"><a href="#" style="text-decoration:none;">CSS</a></li>
+        <li class="w3-button w3-text-white" style="background-color:rgb(47, 82, 224)"><a href="#" style="text-decoration:none;">JavaScript</a></li>
+        <li class="w3-button w3-text-white" style="background-color:rgb(47, 82, 224)"><a href="#" style="text-decoration:none;">PHP</a></li>
+        <li class="w3-button w3-text-white" style="background-color:rgb(47, 82, 224)"><a href="#" style="text-decoration:none;">Python</a></li>
+        <li class="w3-button w3-text-white" style="background-color:rgb(47, 82, 224)"><a href="#" style="text-decoration:none;">jQuery</a></li>
+        <li class="w3-button w3-text-white" style="background-color:rgb(47, 82, 224)"><a href="#" style="text-decoration:none;">SQL</a></li>
+        <li class="w3-button w3-text-white" style="background-color:rgb(47, 82, 224)"><a href="#" style="text-decoration:none;">Bootstrap</a></li>
+        <li class="w3-button w3-text-white" style="background-color:rgb(47, 82, 224)"><a href="#" style="text-decoration:none;">Node.js</a></li>
+    </ul>
+
+    <br>
+    <br>
+
+
+    <!-- Where to Start section -->
+    <div class="w3-black" id="start">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">WHERE TO START</h2>
+      <p class="w3-opacity w3-center"><i>Try out some of these well-known locations!</i></p><br>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>New York</b></p>
+            <p class="w3-opacity">New York, USA</p>
+            <p>Music from the Big Apple.</p>
+            <button class="w3-button w3-text-white w3-margin-bottom" style="background-color:rgb(239, 71, 111)">Listen Now</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Paris</b></p>
+            <p class="w3-opacity">Paris, France</p>
+            <p class="w3-opacity"></p>
+            <p>Click below to hear some of the most popular French artists.</p>
+            <button class="w3-button w3-text-white w3-margin-bottom" style="background-color:rgb(239, 71, 111)">Listen Now</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>San Francisco</b></p>
+            <p class="w3-opacity">San Francisco, California, USA</p>
+            <p>Click below to listen to some songs about San Francisco.</p>
+            <button class="w3-button w3-text-white w3-margin-bottom" style="background-color:rgb(239, 71, 111)"><a href="https://open.spotify.com/playlist/4dgXFI1cHfJ551jlSaxyYs?si=nXIB3gLuRa2yfbDSrM6vgg" style="text-decoration:none;">Listen Now</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <!--
+  <div id="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d59204403.40649309!2d-12.24063298937895!3d25.08323649460077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1613842147282!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+    -->
+
+
+    <!-- Search city list -->
+  <script>
+    function searchList() {
+      // Search through the list of cities
+      // Declare variables
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("mySearch");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("cityList");
+      li = ul.getElementsByTagName("li");
+    
+      // Loop through all list items, and hide those who don't match the search query
+      for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+        } else {
+          li[i].style.display = "none";
+        }
+      }
+    }
+    </script>
+
+    <h2>Search using the map</h2>
+
+    <!-- Display google map-->
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy4rMsW8E0G5S7kJAH6rgXOPOl6MizZsw&callback=initMap&libraries=&v=weekly" async></script>
+    
+    <!-- https://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&key=AIzaSyCy4rMsW8E0G5S7kJAH6rgXOPOl6MizZsw -->
+
+    <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">GET IN TOUCH!</h2>
+    <p class="w3-opacity w3-center"><i>Questions? Comments? Suggestions? Let us know what you think!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-green w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
