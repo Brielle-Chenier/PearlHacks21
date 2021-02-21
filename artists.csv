@@ -1,278 +1,418 @@
-﻿Country,Artist
-Canada,Shawn Mendes
-Canada,Drake
-Canada,Rufus Wainwright
-Canada,Broken Social Scene
-Canada,Diana Krall
-Canada,Daniel Lanois
-Canada,Gordon Lightfoot
-Germany,Yanou
-Germany,Cascada
-Germany,Sarah Connor
-Germany,Lena Meyer-Landrut
-Germany,Herbert Gronemeyer
-Germany,Nena
-Austalia,Kylie Minogue
-Austalia,Sia
-Austalia,Flume
-Austalia,Keith Urban
-Austalia,Amy Shark
-Costa Rica,Debi Nova
-Costa Rica,Jose Capmany
-Costa Rica,Walter Gerguson
-Costa Rica,Guadalupe Urbina
-Costa Rica,Luis Montalbert-smith
-Dominican Republic,Juan Luiis Gerra
-Dominican Republic,Rita Indiana
-Dominican Republic,Vicente Garcia
-Dominican Republic,Luis Dias
-Dominican Republic,Johnny Ventura
-El Salvador,Francisco Palaviccini
-El Salvador,Zaki
-El Salvador,Cartas a Felice
-El Salvador,Gabriela Triste
-El Salvador,Drovekidd
-Guatemala,Ricardo Arjona
-Guatemala,Rebecca Lane
-Guatemala,Alux Nahual
-Guatemala,Fraaek
-Guatemala,Bohemia Suburbana
-Honduras,Aurelio Martinez
-Honduras,Banda Blanca
-Honduras,Guillermo Anderson
-Honduras,Polache
-Honduras,Moises Canelo
-Mexico,Juan Gabriel
-Mexico,Vicente Fernandez
-Mexico,Jose Jose
-Mexico,Julieta Venegas
-Mexico,Natalia Lafourcade
-Mexico,Thalia
-Nicaragua,Carlos Mejia Godoy and Luis Enrique Majia Godoy
-Nicaragua,La Cuneta Son Machin
-Nicaragua,DJ Craze
-Nicaragua,J Smooth
-Nicaragua,Lya Barrioz
-Panama,Cienfue
-Panama,Senor Loop
-Panama,Joshue Ashby & C3 Quartet
-Panama,Danilo Perez
-Panama,Carlos Mendez
-New Zealand,Bill  Hammond
-New Zealand,David Mccracken
-New Zealand,John Badcock
-New Zealand,Darryn George
-New Zealand,Kushana
-New Zealand,Peter Robinson
-New Zealand,Jason Greig
-Argentina,Diego Gravinese
-Argentina,Kaleema
-Argentina,Nicolas Romero Escalada
-Argentina,Andres Aizicovich
-Argentina,Agustin Romero
-Argentina,Alejandro Sordi
-Bolivia,Los Kjarkas
-Bolivia,Atajo
-Bolivia,Savia Nueva
-Bolivia,Kalamarka
-Bolivia,Zulma Yugar
-Bolivia,Octavia
-Brazil,Chico Buarque
-Brazil,Tim Maia
-Brazil,Caetano Veloso
-Brazil,Luis Gonzaga
-Brazil,Raul Seixas
-Brazil,Elis Regina
-Brazil,MCs Racinais
-Brazil,Jorge Ben
-Chile,Ana Tijoux
-Chile,Alex Anwandter
-Chile,Newen Afrobeat
-Chile,Chico Trujillo
-Chile,Los Bunkers
-Chile,Francisca Valenzuela
-Chile,Gondwana
-Chile,Gepe
-Chile,Moral Distraida
-Chile,Villa Carino
-Columbia,Carol Vives
-Columbia,Fruko y Sus Tesos
-Columbia,Toto la Momposina
-Columbia,Joe Arroyo
-Columbia,Shakira
-Columbia,Grupo Niche
-Columbia,J Balvin
-Columbia,La Sonora Dinamita
-Columbia,Silvestre Dangond
-Columbia,Bomba Estereo
-Columbia,Manuel Medrano
-Ecuador,Nicola Cruz
-Ecuador,Mateo Kingman
-Ecuador,La Maquina Camaleon
-Ecuador,Clo Sismico
-Ecuador,Ataw Allpa
-Ecuador,Daniela Alban
-Ecuador,Los NIN
-Ecuador,Lascivio Bohemia
-Paraguay,The Force
-Paraguay,Agustin Barrios Mangore
-Paraguay,Violent Attack
-Paraguay,Wisdom
-Paraguay,Sabaoth
-Paraguay,Monster of Cruelty
-Paraguay,Purahei Soul
-Peru,Servulo Gutierrez
-Peru,Alvaro Suarez Vertiz
-Peru,Toeodoro Nunez Ureta
-Peru,Fernando de Szyszlo
-Peru,Pablo Amaringo
-Peru,Victor Delfin
-Peru,Grimanesa Amoros
-Uruguay,Jorge Drexler
-Uruguay,La Vela Puerca
-Uruguay,No Te Va Gustar
-Uruguay,El Cuarteto De Nos
-Uruguay,Alfredo Zitarrosa
-Uruguay,Bajofondo
-Uruguay,Abuela Coca
-Andora,Persefone
-Andora,Anonymous
-Andora,Marta Roure
-Andora,Susanne Georgi
-Andora,Gisela
-Andora,Nami
-Andora,Marian van de Wal
-Andora,Hysteriofunk
-Austria,Falco
-Austria,Belphegor
-Austria,Haydn
-Austria,Mozart
-Austria,Summoning
-Austria,The Sorrow
-Belgium,Salvator Adamo
-Belgium,Frederic Francois
-Belgium,Jacques Brel
-Belgium,Lou Deprijck/Plastic Bertrand
-Belgium,Rocco Granata
-Bulgaria,Irfan
-Bulgaria,Le Mystere Des Voix Bulgares
-Bulgaria,Azis
-Bulgaria,Preslava
-Bulgaria,P.I.F.
-Bulgaria,Octaba
-Bulgaria,Smallman
-Bulgaria,Kayno Yesno Slonce
-Bulgaria,Isihia
-Bulgaria,Last Hope
-Cyprus,Ziynet Sali
-Cyprus,Mick Karn
-Cyprus,Diam's
-Cyprus,Evridiki
-Cyprus,Evokia Kadi
-Czech Republic,Karel Husa
-Czech Republic,Ilja Hurnik
-Czech Republic,Viktor Kalabis
-Czech Republic,Zdenek Lukas
-Czech Republic,Antonin Tucapsky
-Estonia,Kerli
-Estonia,Mord Fustang
-Estonia,Rein Rannap
-Estonia,Lenna Kuurmaa
-Estonia,Mihkel Raud
-Estonia,Martin Kuuskmann
-Finland,Tarja Turunen
-Finland,Children of Bodom
-Finland,Nightwish
-Finland,Sonata Arctica
-Finland,Apocalyptica
-Finland,Alexi Laiho
-France,Vanessa Paradis
-France,Manu Chao
-France,Yann Tiersen
-France,Pierre Boulez
-France,Maurice Ravel
-France,Florent Pagney
-France,Coeur de Pirate
-France,Zaz
-Greece,Demis Roussos
-Greece,Nana Mouskouri
-Greece,Vangelis
-Greece,Eleni Karaindrou
-Greece,Maria Callas
-Greece,Mikis Theodorakis
-Greece,Manos Hatzidakis
-Hungary,Franz Liszt
-Hungary,Bela Bartok
-Hungary,Omega
-Hungary,Dalriada
-Hungary,Zagar
-Hungary,Thy Catafalque
-Hungary,Yonderboi
-Hungary,Quimby
-Iceland,Kaleo
-Iceland,Sigur Ros
-Iceland,Of Monsters and Men
-Iceland,Bjork
-Iceland,Valdimar
-Iceland,Soley
-Iceland,Vok
-Ireland,Rory Gallagher
-Ireland,Thin Lizzy
-Ireland,The Crandberries
-Ireland,Van Morrison
-Ireland,U2
-Ireland,Imelda May
-Italy,Mina
-Italy,Adriano Celentano
-Italy,Patty Pravo
-Italy,Luciano
-Italy,Toto Cutugno
-Italy,Andrea Brocelli
-Italy,Umberto Tozzi
-Latvia,Gidon Kremer
-Latvia,Mariss Jansons
-Latvia,Leor Dimant
-Latvia,Intars Busulis
-Latvia,Arnis Mednis
-Netherlands,Martin Garrix
-Netherlands,Candy Dulfer
-Netherlands,Alain Clark
-Netherlands,Armin van Buuren
-Netherlands,Bernard Haitink
-Netherlands,Nicky Romero
-Norway,Ida Maria
-Norway,Samoth
-Norway,Kygo
-Norway,Lene Martin
-Norway,Aurora
-Norway,Todd Terje
-Norway,Anna of the North
-Romania,Inna
-Romania,Andreea  Balan
-Romania,Alexandra Stan
-Romania,Akcent
-Romania,O-Zone
-Romania,Simplu
-Romania,Roxen
-Spain,Paco de Lucia
-Spain,Joaquin Sabina
-Spain,Joan Manual Serrat
-Spain,Alaska
-Spain,Formula V.
-Spain,Los del Rio
-United Kingdom,Elton John
-United Kingdom,Eric Clapton
-United Kingdom,David Bowie
-United Kingdom,Viv Albertine
-United Kingdom,Joan Armatrading
-United Kingdom,Ellie Goulding
-Russia,Mstislav Rostropovich
-Russia,Zemfira
-Russia,Svyatoslav Richer
-Russia,Evgeny Kissin
-Russia,Emil Gilels
-Turkey,Hayko Cepkin
-Turkey,Orhan Gencemay
-Turkey,Demir Demirkan
-Turkey,Kudsi Erguner
-Turkey,Erkan Ogur
+"Country, Artist"
+"Canada,Shawn Mendes	"
+"Canada,Drake	"
+"Canada,Rufus Wainwright	"
+"Canada,Broken Social Scene	"
+"Canada,Diana Krall	"
+"Canada,Daniel Lanois	"
+"Canada,Justin Beiber	"
+"Germany,Yanou	"
+"Germany,Cascada	"
+"Germany,Sarah Connor	"
+"Germany,Lena Meyer-Landrut	"
+"Germany,Herbert Gronemeyer	"
+"Germany,Nena	"
+"Australia,Kylie Minogue	"
+"Australia,Sia	"
+"Australia,Flume	"
+"Australia,Keith Urban	"
+"Australia,Amy Shark	"
+"Costa Rica,Debi Nova	"
+"Costa Rica,Jose Capmany	"
+"Costa Rica,Walter Gerguson	"
+"Costa Rica,Guadalupe Urbina	"
+"Costa Rica,Luis Montalbert-smith	"
+"Dominican Republic,Juan Luiis Gerra	"
+"Dominican Republic,Rita Indiana	"
+"Dominican Republic,Vicente Garcia	"
+"Dominican Republic,Luis Dias	"
+"Dominican Republic,Johnny Ventura	"
+"El Salvador,Francisco Palaviccini	"
+"El Salvador,Zaki	"
+"El Salvador,Cartas a Felice	"
+"El Salvador,Gabriela Triste	"
+"El Salvador,Drovekidd	"
+"Guatemala,Ricardo Arjona	"
+"Guatemala,Rebecca Lane	"
+"Guatemala,Alux Nahual	"
+"Guatemala,Fraaek	"
+"Guatemala,Bohemia Suburbana	"
+"Honduras,Aurelio Martinez	"
+"Honduras,Banda Blanca	"
+"Honduras,Guillermo Anderson	"
+"Honduras,Polache	"
+"Honduras,Moises Canelo	"
+"Mexico,Juan Gabriel	"
+"Mexico,Vicente Fernandez	"
+"Mexico,Jose Jose	"
+"Mexico,Julieta Venegas	"
+"Mexico,Natalia Lafourcade	"
+"Mexico,Thalia	"
+"Nicaragua,Carlos Mejia Godoy and Luis Enrique Majia Godoy	"
+"Nicaragua,La Cuneta Son Machin	"
+"Nicaragua,DJ Craze	"
+"Nicaragua,J Smooth	"
+"Nicaragua,Lya Barrioz	"
+"Panama,Cienfue	"
+"Panama,Senor Loop	"
+"Panama,Joshue Ashby & C3 Quartet	"
+"Panama,Danilo Perez	"
+"Panama,Carlos Mendez	"
+"New Zealand,Bill  Hammond	"
+"New Zealand,David Mccracken	"
+"New Zealand,John Badcock	"
+"New Zealand,Darryn George	"
+"New Zealand,Kushana	"
+"New Zealand,Peter Robinson	"
+"New Zealand,Jason Greig	"
+"Argentina,Diego Gravinese	"
+"Argentina,Kaleema	"
+"Argentina,Nicolas Romero Escalada	"
+"Argentina,Andres Aizicovich	"
+"Argentina,Agustin Romero	"
+"Argentina,Alejandro Sordi	"
+"Bolivia,Los Kjarkas	"
+"Bolivia,Atajo	"
+"Bolivia,Savia Nueva	"
+"Bolivia,Kalamarka	"
+"Bolivia,Zulma Yugar	"
+"Bolivia,Octavia	"
+"Brazil,Chico Buarque	"
+"Brazil,Tim Maia	"
+"Brazil,Caetano Veloso	"
+"Brazil,Luis Gonzaga	"
+"Brazil,Raul Seixas	"
+"Brazil,Elis Regina	"
+"Brazil,MCs Racinais	"
+"Brazil,Jorge Ben	"
+"Chile,Ana Tijoux	"
+"Chile,Alex Anwandter	"
+"Chile,Newen Afrobeat	"
+"Chile,Chico Trujillo	"
+"Chile,Los Bunkers	"
+"Chile,Francisca Valenzuela	"
+"Chile,Gondwana	"
+"Chile,Gepe	"
+"Chile,Moral Distraida	"
+"Chile,Villa Carino	"
+"Columbia,Carol Vives	"
+"Columbia,Fruko y Sus Tesos	"
+"Columbia,Toto la Momposina	"
+"Columbia,Joe Arroyo	"
+"Columbia,Shakira	"
+"Columbia,Grupo Niche	"
+"Columbia,J Balvin	"
+"Columbia,La Sonora Dinamita	"
+"Columbia,Silvestre Dangond	"
+"Columbia,Bomba Estereo	"
+"Columbia,Manuel Medrano	"
+"Ecuador,Nicola Cruz	"
+"Ecuador,Mateo Kingman	"
+"Ecuador,La Maquina Camaleon	"
+"Ecuador,Clo Sismico	"
+"Ecuador,Ataw Allpa	"
+"Ecuador,Daniela Alban	"
+"Ecuador,Los NIN	"
+"Ecuador,Lascivio Bohemia	"
+"Paraguay,The Force	"
+"Paraguay,Agustin Barrios Mangore	"
+"Paraguay,Violent Attack	"
+"Paraguay,Wisdom	"
+"Paraguay,Sabaoth	"
+"Paraguay,Monster of Cruelty	"
+"Paraguay,Purahei Soul	"
+"Peru,Servulo Gutierrez	"
+"Peru,Alvaro Suarez Vertiz	"
+"Peru,Toeodoro Nunez Ureta	"
+"Peru,Fernando de Szyszlo	"
+"Peru,Pablo Amaringo	"
+"Peru,Victor Delfin	"
+"Peru,Grimanesa Amoros	"
+"Uruguay,Jorge Drexler	"
+"Uruguay,La Vela Puerca	"
+"Uruguay,No Te Va Gustar	"
+"Uruguay,El Cuarteto De Nos	"
+"Uruguay,Alfredo Zitarrosa	"
+"Uruguay,Bajofondo	"
+"Uruguay,Abuela Coca	"
+"Andora,Persefone	"
+"Andora,Anonymous	"
+"Andora,Marta Roure	"
+"Andora,Susanne Georgi	"
+"Andora,Gisela	"
+"Andora,Nami	"
+"Andora,Marian van de Wal	"
+"Andora,Hysteriofunk	"
+"Austria,Falco	"
+"Austria,Belphegor	"
+"Austria,Haydn	"
+"Austria,Mozart	"
+"Austria,Summoning	"
+"Austria,The Sorrow	"
+"Belgium,Salvator Adamo	"
+"Belgium,Frederic Francois	"
+"Belgium,Jacques Brel	"
+"Belgium,Lou Deprijck/Plastic Bertrand	"
+"Belgium,Rocco Granata	"
+"Bulgaria,Irfan	"
+"Bulgaria,Le Mystere Des Voix Bulgares	"
+"Bulgaria,Azis	"
+"Bulgaria,Preslava	"
+"Bulgaria,P.I.F.	"
+"Bulgaria,Octaba	"
+"Bulgaria,Smallman	"
+"Bulgaria,Kayno Yesno Slonce	"
+"Bulgaria,Isihia	"
+"Bulgaria,Last Hope	"
+"Cyprus,Ziynet Sali	"
+"Cyprus,Mick Karn	"
+"Cyprus,Diam's	"
+"Cyprus,Evridiki	"
+"Cyprus,Evokia Kadi	"
+"Czech Republic,Karel Husa	"
+"Czech Republic,Ilja Hurnik	"
+"Czech Republic,Viktor Kalabis	"
+"Czech Republic,Zdenek Lukas	"
+"Czech Republic,Antonin Tucapsky	"
+"Estonia,Kerli	"
+"Estonia,Mord Fustang	"
+"Estonia,Rein Rannap	"
+"Estonia,Lenna Kuurmaa	"
+"Estonia,Mihkel Raud	"
+"Estonia,Martin Kuuskmann	"
+"Finland,Tarja Turunen	"
+"Finland,Children of Bodom	"
+"Finland,Nightwish	"
+"Finland,Sonata Arctica	"
+"Finland,Apocalyptica	"
+"Finland,Alexi Laiho	"
+"France,Vanessa Paradis	"
+"France,Manu Chao	"
+"France,Yann Tiersen	"
+"France,Pierre Boulez	"
+"France,Maurice Ravel	"
+"France,Florent Pagney	"
+"France,Coeur de Pirate	"
+"France,Zaz	"
+"Greece,Demis Roussos	"
+"Greece,Nana Mouskouri	"
+"Greece,Vangelis	"
+"Greece,Eleni Karaindrou	"
+"Greece,Maria Callas	"
+"Greece,Mikis Theodorakis	"
+"Greece,Manos Hatzidakis	"
+"Hungary,Franz Liszt	"
+"Hungary,Bela Bartok	"
+"Hungary,Omega	"
+"Hungary,Dalriada	"
+"Hungary,Zagar	"
+"Hungary,Thy Catafalque	"
+"Hungary,Yonderboi	"
+"Hungary,Quimby	"
+"Iceland,Kaleo	"
+"Iceland,Sigur Ros	"
+"Iceland,Of Monsters and Men	"
+"Iceland,Bjork	"
+"Iceland,Valdimar	"
+"Iceland,Soley	"
+"Iceland,Vok	"
+"Ireland,Rory Gallagher	"
+"Ireland,Thin Lizzy	"
+"Ireland,The Crandberries	"
+"Ireland,Van Morrison	"
+"Ireland,U2	"
+"Ireland,Imelda May	"
+"Italy,Mina	"
+"Italy,Adriano Celentano	"
+"Italy,Patty Pravo	"
+"Italy,Luciano	"
+"Italy,Toto Cutugno	"
+"Italy,Andrea Brocelli	"
+"Italy,Umberto Tozzi	"
+"Latvia,Gidon Kremer	"
+"Latvia,Mariss Jansons	"
+"Latvia,Leor Dimant	"
+"Latvia,Intars Busulis	"
+"Latvia,Arnis Mednis	"
+"Netherlands,Martin Garrix	"
+"Netherlands,Candy Dulfer	"
+"Netherlands,Alain Clark	"
+"Netherlands,Armin van Buuren	"
+"Netherlands,Bernard Haitink	"
+"Netherlands,Nicky Romero	"
+"Norway,Ida Maria	"
+"Norway,Samoth	"
+"Norway,Kygo	"
+"Norway,Lene Martin	"
+"Norway,Aurora	"
+"Norway,Todd Terje	"
+"Norway,Anna of the North	"
+"Romania,Inna	"
+"Romania,Andreea  Balan	"
+"Romania,Alexandra Stan	"
+"Romania,Akcent	"
+"Romania,O-Zone	"
+"Romania,Simplu	"
+"Romania,Roxen	"
+"Spain,Paco de Lucia	"
+"Spain,Joaquin Sabina	"
+"Spain,Joan Manual Serrat	"
+"Spain,Alaska	"
+"Spain,Formula V.	"
+"Spain,Los del Rio	"
+"United Kingdom,Elton John	"
+"United Kingdom,Eric Clapton	"
+"United Kingdom,David Bowie	"
+"United Kingdom,Viv Albertine	"
+"United Kingdom,Joan Armatrading	"
+"United Kingdom,Ellie Goulding	"
+"Russia,Mstislav Rostropovich	"
+"Russia,Zemfira	"
+"Russia,Svyatoslav Richer	"
+"Russia,Evgeny Kissin	"
+"Russia,Emil Gilels	"
+"Turkey,Hayko Cepkin	"
+"Turkey,Orhan Gencemay	"
+"Turkey,Demir Demirkan	"
+"Turkey,Kudsi Erguner	"
+"Turkey,Erkan Ogur	"
+"Poland,Frederic Choppin	"
+"Poland,Czeslaw Niemen	"
+"Poland,Karol Szymanowshi	"
+"Poland,Krzysztof Penderecki	"
+"Poland,Doda	"
+"Portugal,David Fonseca	"
+"Portugal,Gomo	"
+"Portugal,Maria Joao Pires	"
+"Portugal,Lura	"
+"Portugal,The Legendary Tigerman	"
+"Slovakia,Polemic	"
+"Slovakia,Horkyze Slize	"
+"Slovakia,Peha	"
+"Slovakia,Abortion	"
+"Slovakia,Hromovlad	"
+"Slovakia,Para	"
+"Sweeden,Avicii	"
+"Sweeden,Benny Anderson	"
+"Sweeden,Lisa Miskovsky	"
+"Sweeden,In Flames	"
+"Sweeden,The Knife	"
+"Sweeden,Lykke Li	"
+"Switzerland,Andreas Vollenweider	"
+"Switzerland,Robert Miles	"
+"Switzerland,Patrick Moraz	"
+"Switzerland,Gotthard	"
+"Switzerland,Hecht	"
+"Switzerland,Mike Candys	"
+"Croatia,Miroslav Skoro	"
+"Croatia,Gibonni	"
+"Croatia,Rade Serbedzija	"
+"Croatia,Dino Dvornik	"
+"Croatia,Oliver Dragojevic	"
+"Croatia,Toni Cetinski	"
+"Croatia,Thompson	"
+"India,Ustad Bismillah Khan	"
+"India,Pandit Ravi Shankar	"
+"India,Hariprasad Chaurasia	"
+"India,M.S Subbulakshmi	"
+"India,A.R. Rahman	"
+"Indonesia,Slank	"
+"Indonesia,Ten2Five	"
+"Indonesia,Peterpan	"
+"Indonesia,MALIQ & D'Essentials	"
+"Indonesia,Ada Band	"
+"Indonesia,Sheila on 7	"
+"Israel,Daniel Barenboim	"
+"Israel,Itzhak Perlman	"
+"Israel,Kutiman	"
+"Israel,Static & Ben El Tavori	"
+"Israel,Naomi Shemer	"
+"Israel,Netta Barzilai	"
+"Japan,Ryuichi Sakamoto	"
+"Japan,Tomoyasu Hotei	"
+"Japan,Masaharu Fukuyama	"
+"Japan,B'z	"
+"Japan,AKB48	"
+"Japan,Ayumi Hamasaki	"
+"Japan,Mr. Children	"
+"Jordan,Naser Mestarihi	"
+"Jordan,Ayah Marar	"
+"Jordan,Zade	"
+"Jordan,Adham Nabulsi	"
+"Philippines,Ryan Cayabyab	"
+"Philippines,Freddie Aguilar	"
+"Philippines,The Eraserheads	"
+"Philippines,Brownman Revival	"
+"Philippines,Lea Salonga	"
+"Philippines,The Ransom Collective	"
+"South Korea,Psy	"
+"South Korea,BTS	"
+"South Korea,BoA	"
+"South Korea,Rain	"
+"South Korea,Big Bang	"
+"South Korea,Super Junior	"
+"South Korea,EXO	"
+"South Korea,Girls' Generation	"
+"South Korea,Wonder Girls	"
+"South Korea,T-ara	"
+"South Korea,Miss A	"
+"Taiwan,Chthonic	"
+"Taiwan,S.H.E	"
+"Taiwan,Feahrenheight	"
+"Taiwan,Tizzy Bac	"
+"Taiwan,F.I.R	"
+"Taiwan,Anthelion	"
+"Thailand,Jetrin Wattanasin	"
+"Thailand,Pongsri Woranuch	"
+"Thailand,Sek Loso	"
+"Thailand,Tata Young	"
+"Thailand,Klear	"
+"Thailand,Bird Thongchai	"
+"Thailand,Golf Mike	"
+"Vietnam,Son Tung M-TP	"
+"Vietnam,MIN	"
+"Vietnam,My Tam	"
+"Vietnam,Soobin Hoang Son	"
+"Vietnam,Huong Tram	"
+"Vietnam,Only C	"
+"Egypt,Angham	"
+"Egypt,Mohamed Fouad	"
+"Egypt,Sherine	"
+"Egypt,Hisham Abbas	"
+"Egypt,Hakim	"
+"Egypt,Mahmoud El Esseily	"
+"Morocco,Malika Zarra	"
+"Morocco,Master Musicians of Joujouka	"
+"Morocco,Houcine Touali	"
+"Morocco,Hassan Hakmoun	"
+"Morocco,Ariel Wizman	"
+"South Africa,Sho Madjozi	"
+"South Africa,Francois Van Coke	"
+"South Africa,Petite Noir	"
+"South Africa,Lucky Dube	"
+"South Africa,Emtee	"
+"Tunaisia,Anouar Brahem	"
+"Tunaisia,Dhafer Youssef	"
+"Tunaisia,Jacqueline Taieb	"
+"United States,The Beatles	"
+"United States,Elvis Presley	"
+"United States,Michael Jackson	"
+"United States,Madonna	"
+"United States,Rihanna	"
+"United States,Taylor Swift	"
+"United States,Kanye West	"
+"United States,Ed Sheeran	"
+"United States,Lady Gaga	"
+"United States,Adele	"
+"United States,Maroon 5	"
+"United States,Bruno Mars	"
+"United States,Beyonce	"
+"United States,Backstreet Boys	"
+"United States,Pink	"
+"Uzbekistan,Rahim Shah"
+"Uzbekistan	Sahir Ali Bagga"
+"Uzbekistan,Sajjad Ali"
+"Uzbekista,Hadiqa Kiani"
+"Uzbekistan,Quarat-ul-Ain Balouch"
+"Uzbekistan,Hazim Bangwar"
+"Uzbekistan,Atif Aslam"
