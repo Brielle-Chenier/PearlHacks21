@@ -14,6 +14,8 @@ def search(country):
 
         for artist in local_artists:
             print (artist)
+        if (len(local_artists)==0):
+            local_artists = [country]
     link = add_songs_to_playlist(country, local_artists)
     return link
 
