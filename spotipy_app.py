@@ -36,3 +36,6 @@ def add_songs_to_playlist(country, artists):
     sp.playlist_add_items( playlist_id = playlist_id, items = track_id)   
     for track in track_names:
         print (track)
+    return ("https://open.spotify.com/playlist/" + str (playlist_id))
+
+#print (add_songs_to_playlist("US", ["Taylor Swift", "AJR"]))
