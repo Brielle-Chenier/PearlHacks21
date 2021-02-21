@@ -28,7 +28,8 @@ function initMap() {
     $(document).ready(function() {
       $.getJSON(link, function(data) {
         // Display country name
-        document.getElementById('test').innerHTML = data.results[0].formatted_address;
+        document.getElementById("music-link").innerHTML = "Click here for music from " + data.results[0].formatted_address;
+        document.getElementById("music-link").setAttribute('href','http://127.0.0.1:5000/' + data.results[0].formatted_address);
       });
     });
 
