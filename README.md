@@ -6,3 +6,9 @@ You can pick a coutnry using the search or the map locted at hte bottom of the w
 
 To run our app, download the flaskApp folder and run page1.py. You may need to install flask and spotify first.
 
+![Image of Hompage](https://github.com/Brielle-Chenier/PearlHacks21/blob/main/dev_images/home.JPG)
+
+![Image of Map](https://github.com/Brielle-Chenier/PearlHacks21/blob/main/dev_images/map.png)
+
+
+![Image of Sample Playlist](https://github.com/Brielle-Chenier/PearlHacks21/blob/main/dev_images/brazil.JPG)
