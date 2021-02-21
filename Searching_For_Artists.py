@@ -4,7 +4,7 @@ def search(country):
     with open('C:\\Users\\kayla\\Desktop\\Visual Studios Code\\Pearl Hacks\\artists.csv', 'r') as csv_file:
         csv_reader = csv.reader(csv_file)
 
-        local_artists = []
+        local_artists = [country]
 
         for row in csv_reader:
             if row [0] == country:
@@ -14,5 +14,3 @@ def search(country):
         #print (local_artists)
         add_songs_to_playlist(local_artists)
 
-
-search("United Kingdom")
